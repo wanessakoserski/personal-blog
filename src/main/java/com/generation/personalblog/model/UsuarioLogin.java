@@ -1,13 +1,19 @@
 package com.generation.personalblog.model;
 
 public class UsuarioLogin {
-
+	
+	private Long id;
 	private String nome;
 	private String email;
 	private String senha;
 	private String token;
 	
-	
+	public Long getId() {
+		return this.id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getNome() {
 		return nome;
 	}
